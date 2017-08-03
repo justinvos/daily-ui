@@ -1,0 +1,149 @@
+// VARIABLES
+
+$lightGrey: #eceff1
+$highlight: #FF5722
+
+// BASE
+
+*
+  box-sizing: border-box
+
+html, body
+  font-family: "Montserrat"
+  margin: 0
+  padding: 0
+  
+p
+  margin: 0
+
+a
+  color: $highlight
+  text-decoration: none
+
+a:hover
+  color: $highlight
+  text-decoration: underline
+
+a:visited
+  color: $highlight
+
+// MODULES
+
+.page
+  width: 100%
+
+.page__title
+  font-size: 32px
+  text-align: center
+
+.page--top
+  background: #2c3e50
+  background: #263238
+  color: white
+  padding: 15px
+
+.top__section
+  margin: 80px 0
+
+.top__icon
+  display: block
+  margin: 0 auto
+  width: 240px
+  
+.top__title
+  font-family: "Nunito"
+  font-size: 56px
+  font-weight: 600
+  margin: 0
+  text-align: center
+
+.top__tagline
+  font-size: 20px
+  font-weight: 400
+  text-align: center
+  
+.page--about
+  background: $lightGrey
+  
+.about__section
+  margin: 0 auto
+  padding: 50px
+  width: 800px
+  
+.about__description
+  font-size: 18px
+  line-height: 28px
+
+.page--services  
+  margin: 60px 0
+  
+.services__section
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.services__column
+  margin: 0 15px
+  width: 300px
+
+.services__listing
+  list-style: none
+  margin: 0
+  padding: 0
+
+.service
+  margin: 8px 0
+
+
+.service--lacasa
+  background: url('http://www.material-ui.com/images/get-started.svg')
+
+.service--design
+  background: url('http://www.material-ui.com/images/css-framework.svg')
+
+.service--data
+  background: url('http://www.material-ui.com/images/components.svg')
+
+.page--contact
+  background: $lightGrey
+  padding: 80px 0
+
+.contact__section
+  margin: 0 auto
+  width: 800px
+
+.contact__lead
+  font-size: 36px
+  font-weight: 500
+  text-align: center
+
+.page--work
+  margin: 32px
+
+.work__section
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.work
+  width: 300px
+
+.page--footer
+  background: #232E33
+  color: white
+
+.footer__section
+  display: flex
+  flex-direction: row
+  font-size: 24px
+  justify-content: center
+  margin: 0 auto
+  padding: 50px
+  width: 800px
+  
+.footer__icon
+  margin: 0 10px
+
+.footer__icon:hover
+  color: #CCCCCC
+  cursor: pointer
